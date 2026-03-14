@@ -60,7 +60,7 @@ public class BootstrapData implements CommandLineRunner {
         publisher.setAddress("Brennhorsten 12");
         publisher.setCity("Westensee");
         publisher.setState("Schleswig-Holstein");
-        publisher.setZip("24259");
+        publisher.setZipCode("24259");
 
         Publisher publisherSaved = publisherRepository.save(publisher);
 
